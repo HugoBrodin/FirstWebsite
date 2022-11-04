@@ -1,0 +1,135 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    
+    background: url(https://images.pexels.com/photos/4836513/pexels-photo-4836513.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1) no-repeat center/cover;
+    
+    right: 0;
+    top: 0;
+}
+
+.navigation ul{
+list-style: none;
+text-align: center;
+margin: 0;
+padding: 5px;
+background-color: #09070C;
+position: sticky;
+justify-content: center;
+
+
+}
+
+.navigation li{
+    font-size: 1em;
+    line-height: 30px;
+    height: 30px;
+    display: inline-flex;
+    margin: 1.5%;
+    font-weight: bold;
+    position: sticky;
+}
+
+nav a{
+    text-decoration: none;
+    color: #fff;
+    display: flex;
+    opacity: 1.2;
+}
+
+nav a:hover {
+    background-color: #fff;
+    color: #09070C;
+    font-weight: bold;
+}
+
+
+
+h1{
+ color: white;
+ font-weight: bold;
+ font-size: 3em;
+ font-style: italic;
+ text-align: center;
+
+}
+
+#home{
+    display: flex;
+    flex-direction: column;
+   
+}
+
+  
+#arcade{
+display: flex; 
+flex-direction: column;
+color: #fff;
+text-align: center;
+
+font-size: 1.2em;
+}
+
+#arcade h2{
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.4em;
+    
+
+}
+ 
+#sports-bar{
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+
+}
+
+h2, h3, h4{
+    font-size: 1.4em;
+    font-weight: bold;
+    padding: 5px;
+    
+}
+
+#sports-bar ul{list-style: none;
+    text-align: center;
+    margin: 0;
+    padding: 5px;
+    justify-content: center;
+
+}
+
+#sports-bar li{
+    text-decoration: none;
+    margin: 0;
+    padding: 5px;
+    border: solid white 1px;
+}
+
+#member{
+    display:flex ;
+    flex-direction: column;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 10px;
+    color: #fff;
+}
+.form{
+    justify-content: center;
+    margin: 2.5em 15px;
+    align-items: center;
+    box-sizing: border-box;
+}
+    
+footer{
+    background-color: #09070C; 
+    height: 50px;
+    width: 100%;
+    color: white;
+    text-align: center;
+
+    
+}
